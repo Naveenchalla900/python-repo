@@ -3,11 +3,11 @@
     "taskDefinition": "ecs-demo",
     "loadBalancers": [
         {
-            "loadBalancerName": "EC2Contai-EcsElast-123456789012",
+            "loadBalancerName": "my-load-balancer",
             "containerName": "simple-demo",
             "containerPort": 80
         }
     ],
-    "desiredCount": 10,
+    "desiredCount": 4,
     "role": "ecsServiceRole"
 }
