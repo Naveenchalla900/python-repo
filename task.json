@@ -5,7 +5,7 @@
     "containerDefinitions": [
         {
             "name": "my-container",
-            "image": "207797650028.dkr.ecr.ap-south-1.amazonaws.com/naveen-repo:22",
+            "image": "207797650028.dkr.ecr.ap-south-1.amazonaws.com/naveen-repo:18",
             "portMappings": [
                 {
                     "containerPort": 5000 ,
