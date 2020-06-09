@@ -1,5 +1,5 @@
 {
-    "family": "task4",
+    "family": "task5",
     "executionRoleArn": "arn:aws:iam::207797650028:role/ecsTaskExecutionRole/ecs.amazonaws.com/AWSServiceRoleForECS",
     "networkMode": "awsvpc",
     "containerDefinitions": [
