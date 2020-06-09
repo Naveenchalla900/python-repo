@@ -1,0 +1,25 @@
+{
+    "family": "My-fargate",
+    "executionRoleArn": "arn:aws:iam::207797650028:role/ecsTaskExecutionRole/ecs.amazonaws.com/AWSServiceRoleForECS",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+        {
+            "name": "my-container",
+            "image": "207797650028.dkr.ecr.ap-south-1.amazonaws.com/naveen-repo:18",
+            "portMappings": [
+                {
+                    "containerPort": 5000 ,
+                    "hostPort": 5000,
+                    "protocol": "tcp"
+                }
+            ]
+        }
+    ],
+
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512"
+}
+
