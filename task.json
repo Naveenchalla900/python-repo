@@ -12,13 +12,6 @@
                     "protocol": "tcp"
                 }
             
-            ],
-            "ulimits": [
-                {
-                   "name": "nofile",
-                   "softLimit": 256,
-                    "hardLimit": 0
-                }
             ]
         }
     ],
