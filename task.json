@@ -1,5 +1,5 @@
 {
-    "family": "My-fargate",
+    "family": "first-fargate",
     "executionRoleArn": "arn:aws:iam::207797650028:role/ecsTaskExecutionRole/ecs.amazonaws.com/AWSServiceRoleForECS",
     "networkMode": "awsvpc",
     "containerDefinitions": [
