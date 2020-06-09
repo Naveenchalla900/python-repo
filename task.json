@@ -1,5 +1,6 @@
 {
-    "family": "My-fargate",
+    "family": "task4",
+    "executionRoleArn": "arn:aws:iam::207797650028:role/ecsTaskExecutionRole/ecs.amazonaws.com/AWSServiceRoleForECS",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
@@ -8,16 +9,10 @@
             "portMappings": [
                 {
                     "containerPort": 5000 ,
-                    "hostPort": 8000,
+                    "hostPort": 5000,
                     "protocol": "tcp"
                 }
             
-            ],
-            "ulimits": [
-                {
-                   "name": "nofile",
-                   "softLimit": 256
-                }
             ]
         }
     ],
@@ -28,4 +23,3 @@
     "cpu": "256",
     "memory": "512"
 }
-
