@@ -1,0 +1,13 @@
+{
+    "serviceName": "ecs-simple-service-elb",
+    "taskDefinition": "task4",
+    "loadBalancers": [
+        {
+            "loadBalancerName": "my-load-balancer",
+            "containerName": "simple-demo",
+            "containerPort": 80
+        }
+    ],
+    "desiredCount": 4,
+    "role": "ecsServiceRole"
+}
