@@ -1,6 +1,6 @@
 {
-    "family": "testtask",
-    "executionRoleArn": "arn:aws:iam::207797650028:role/ecsTaskExecutionRole/ecs.amazonaws.com/AWSServiceRoleForECS",
+    "family": "NewTask",
+    "executionRoleArn": "arn:aws:iam::207797650028:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
