@@ -1,0 +1,13 @@
+{
+    "serviceName": "myservice",
+    "taskDefinition": "NewTask1",
+    "loadBalancers": [
+        {
+            "loadBalancerName": "MY-LB",
+            "containerName": "my-container",
+            "containerPort": 80
+        }
+    ],
+    "desiredCount": 4,
+    "role": "ecsServiceRole"
+}
