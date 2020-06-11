@@ -1,6 +1,6 @@
 {
     "serviceName": "myservice",
-    "taskDefinition": "NewTask1",
+    "taskDefinition": "NaveenTask1",
     "loadBalancers": [
         {
             "loadBalancerName": "MY-LB",
