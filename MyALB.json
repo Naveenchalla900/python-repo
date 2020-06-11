@@ -3,7 +3,7 @@
     "taskDefinition": "NaveenTask1",
     "loadBalancers": [
         {
-            "loadBalancerName": "MY-LB",
+            "loadBalancerName": "loadbalancer",
             "containerName": "my-container",
             "containerPort": 80
         }
