@@ -3,7 +3,7 @@
     "taskDefinition": "NaveenTask1",
     "loadBalancers": [
         {
-            "loadBalancerName": "arn:aws:elasticloadbalancing:ap-south-1:207797650028:loadbalancer/app/MY-LB/4dfcaa645bf24122",
+            "loadBalancerName": "MY-LB",
             "containerName": "my-container",
             "containerPort": 80
         }
