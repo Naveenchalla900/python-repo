@@ -1,8 +1,0 @@
-[
-  {
-    "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:207797650028:targetgroup/mytg/45099cec01ab7880",
-    "loadBalancerName": "mylb",
-    "containerName": "my-container",
-    "containerPort": 5000
-  }
-]
