@@ -8,6 +8,5 @@
             "containerPort": 80
         }
     ],
-    "desiredCount": 4,
-    "serviceArn": "arn:aws:iam::207797650028:service/myservice"
+    "desiredCount": 4
 }
