@@ -5,7 +5,7 @@
         {
             "loadBalancerName": "loadbalancer",
             "containerName": "my-container",
-            "containerPort": 5000
+            "containerPort": 80
         }
     ],
     "desiredCount": 4
