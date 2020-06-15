@@ -8,6 +8,6 @@
             "containerPort": 5000
         }
     ],
-    "desiredCount": 4
-    "role" : "AWSServiceRoleForECS"
+    "desiredCount": 4,
+    "role": "AWSServiceRoleForECS"
 }
