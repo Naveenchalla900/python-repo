@@ -9,5 +9,5 @@
         }
     ],
     "desiredCount": 4,
-    "role": "ec2servicerole"
+    "role": "arn:aws:iam::207797650028:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS"
 }
