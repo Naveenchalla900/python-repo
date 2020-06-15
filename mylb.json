@@ -1,0 +1,13 @@
+{
+    "serviceName": "myservice",
+    "taskDefinition": "mytask",
+    "loadBalancers": [
+        {
+            "loadBalancerName": "loadbalancer",
+            "containerName": "my-container",
+            "containerPort": 5000
+        }
+    ],
+    "desiredCount": 4,
+    "role": "ec2servicerole"
+}
