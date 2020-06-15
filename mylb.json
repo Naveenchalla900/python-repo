@@ -10,18 +10,5 @@
       }
   ], 
   "role": "arn:aws:iam::207797650028:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS", 
-  "desiredCount": 2, 
-  "deploymentConfiguration": {
-      "maximumPercent": 200, 
-      "minimumHealthyPercent": 50
-  }, 
-  "placementStrategy": [
-      {
-          "field": "attribute:ecs.availability-zone", 
-          "type": "spread"
-      }, 
-      {
-          "field": "instanceId", 
-          "type": "spread"
-      }
-  ]
+  "desiredCount": 2
+}
