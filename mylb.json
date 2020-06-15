@@ -8,6 +8,5 @@
             "containerPort": 5000
         }
     ],
-    "desiredCount": 4,
-    "role": "ec2servicerole"
+    "desiredCount": 4
 }
