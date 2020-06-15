@@ -9,5 +9,5 @@
         }
     ],
     "desiredCount": 4
-    "role": "AWSServiceRoleForECS"
+    "role" : "AWSServiceRoleForECS"
 }
