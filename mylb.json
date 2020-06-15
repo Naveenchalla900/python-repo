@@ -1,13 +1,29 @@
 {
-    "serviceName": "myservice",
-    "taskDefinition": "mytask",
-    "loadBalancers": [
-        {
-            "loadBalancerName": "loadbalancer",
-            "containerName": "my-container",
-            "containerPort": 80
-        }
-    ],
-    "desiredCount": 4,
-    "role": "arn:aws:iam::207797650028:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS"
-}
+  "cluster": "cluster1",
+  "serviceName": "myservice", 
+  "taskDefinition": "mytask",
+  "loadBalancers": [
+      {
+          "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:207797650028:targetgroup/MY-TG/57e40fa369832117",
+          "containerName": "my-container", 
+          "containerPort": 5000
+      }
+  ], 
+  "role": "arn:aws:iam::207797650028:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS", 
+  "desiredCount": 2, 
+  "deploymentConfiguration": {
+      "maximumPercent": 200, 
+      "minimumHealthyPercent": 50
+  }, 
+  "placementStrategy": [
+      {
+          "field": "attribute:ecs.availability-zone", 
+          "type": "spread"
+      }, 
+      {
+          "field": "instanceId", 
+          "type": "spread"
+      }
+  ]
+#  "role": "arn:aws:iam::207797650028:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS"
+
