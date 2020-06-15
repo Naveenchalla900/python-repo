@@ -8,5 +8,6 @@
             "containerPort": 80
         }
     ],
-    "desiredCount": 4
+    "desiredCount": 4,
+    "role": "ec2servicerole"
 }
