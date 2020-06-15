@@ -1,5 +1,5 @@
 {
-    "family": "NaveenTask1",
+    "family": "mytask",
     "executionRoleArn": "arn:aws:iam::207797650028:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
