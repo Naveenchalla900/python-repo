@@ -9,6 +9,6 @@
           "containerPort": 5000
       }
   ], 
-  "role": "role1", 
+  "role": "arn:aws:iam::207797650028:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS", 
   "desiredCount": 2
 }
