@@ -9,6 +9,6 @@
           "containerPort": 5000
       }
   ], 
-  "role": "arn:aws:iam::207797650028:role/myrole", 
+  "role": "role1", 
   "desiredCount": 2
 }
